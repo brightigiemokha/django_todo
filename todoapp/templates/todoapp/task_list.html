@@ -9,6 +9,9 @@
     {% for todo in object_list %}
     <tr>
         <td>{{todo.title}}</td>
+        <td><a href="{% url 'todo-detail' todo.id }">View</a></td>
+        <td><a href="{% url 'todo-update' todo.id }">Edit</a></td>
+        <td><a href="{% url 'todo-delete' todo.id }">Delete</a></td>
     </tr>
     {% empty %}
     <h3> No Task set yet </h3>
