@@ -1,1 +1,17 @@
 <h1>testing Testing</h1>
+
+<table>
+    <tr>
+        <th>Item</th>
+        <th></th>
+        <th></th>
+    </tr>
+    {% for todo in object_list %}
+    <tr>
+        <td>{{todo.title}}</td>
+    </tr>
+    {% empty %}
+    <h3> No Task set yet </h3>
+    <a href="">Add New Task</a>
+    {% endfor %}
+</table>
