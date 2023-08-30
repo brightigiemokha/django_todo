@@ -2,17 +2,17 @@
 
 <table>
     <tr>
-        <th>Items</th>
+        <th>Item</th>
         <th></th>
         <th></th>
     </tr>
     {% for todo in object_list %}
     <tr>
-        <td>{{todo.title}}</td>
-        <td><a href="{% url 'todo-detail' todo.id %}">View</a></td>
-        <td><a href="{% url 'todo-create' %}">Add+</a></td>
-        <td><a href="{% url 'todo-update' todo.id %}">Edit</a></td>
-        <td><a href="{% url 'todo-delete' todo.id %}">Delete</a></td>
+        <td>{{todo.id}}.        {{todo.title}}</td>
+        <td><a href="{% url 'todo-detail' task.id }">View</a></td>
+        <td><a href="{% url 'task-create'}">Add+</a></td>
+        <td><a href="{% url 'todo-update' task.id }">Edit</a></td>
+        <td><a href="{% url 'todo-delete' task.id }">Delete</a></td>
     </tr>
     {% empty %}
     <h3> No Task set yet </h3>
