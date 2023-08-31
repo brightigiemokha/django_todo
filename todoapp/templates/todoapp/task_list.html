@@ -3,38 +3,34 @@
 {% block content %}
 <div class="header">
     <div>
-        <h3>Hello {{ request.user|title }}</h3>
-        <h6>You have <i>{{ count }}</i></h6>
+        <h1>Hello {{ request.user|title }}</h1>
+        <h6>You have <i>{{ count }} incomplete task{{ count|pluralize:'s' }}</i></h6>
     </div>
 </div>
 {% if request.user.is_authenticated %}
-<p>{{ request.user }}</p>
 <a href="{% url 'logout' %}">Logout</a>
 {% else %}
     <a href="{% url 'login' %}">Login</a>
-<h1>testing Testing</h1>
 {% endif %}
-<hr>
 
-<h1>My Todo List</h1>
 
+<h3>My Todo List</h3>
 </form>
-
 <table>
     <tr>
-        <th>Item</th>
+        <th>List</th>
     </tr>
     {% for todo in task %}
     <tr>
         <td>{{todo.id}}.        {{todo.title}}</td>
-        <td><a href="{% url 'todo-detail' todo.id }">View</a></td>
-        <td><a href="{% url 'todo-create'}">Add+</a></td>
-        <td><a href="{% url 'todo-update' todo.id }">Edit</a></td>
-        <td><a href="{% url 'todo-delete' todo.id }">Delete</a></td>
+        <td><a href="{% url 'todo-detail' todo.id %}">View</a></td>
+        <td><a href="{% url 'todo-create' %}">Add+</a></td>
+        <td><a href="{% url 'todo-update' todo.id %}">Edit</a></td>
+        <td><a href="{% url 'todo-delete' 10%}">Delete</a> </td>
     </tr>
     {% empty %}
     <h3> No Task set yet </h3>
-    <a href="{% url 'todo-create'}">Add New Tasks</a>
+    <a href="{% url 'todo-create' %}">Add New Tasks</a>
     {% endfor %}
 </table>
 {% endblock content %}
