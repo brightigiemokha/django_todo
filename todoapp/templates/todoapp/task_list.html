@@ -23,10 +23,9 @@
     {% for todo in task %}
     <tr>
         <td>{{todo.id}}.        {{todo.title}}</td>
-        <td><a href="{% url 'todo-detail' todo.id %}">View</a></td>
-        <td><a href="{% url 'todo-create' %}">Add+</a></td>
-        <td><a href="{% url 'todo-update' todo.id %}">Edit</a></td>
-        <td><a href="{% url 'todo-delete' 10%}">Delete</a> </td>
+        <td><a href="{% url 'todo-create' %}">Add+</a><i class="fa-solid fa-plus"></i></td>
+        <td><a href="{% url 'todo-update' todo.id %}">Edit</a><i class="fa-duotone fa-eraser"></i></td>
+        <td><a href="{% url 'todo-delete' todo.id %}">Delete</a> <i class="fa-solid fa-trash"></i></td>
     </tr>
     {% empty %}
     <h3> No Task set yet </h3>
