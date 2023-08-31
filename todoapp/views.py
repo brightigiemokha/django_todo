@@ -28,6 +28,7 @@ class TaskList(LoginRequiredMixin, ListView):
         context['count'] = context['task'].filter(complete=False).count()
         return context
 
+
 class TaskDetail(LoginRequiredMixin, DetailView):
     model = Task
     context_object_name = 'task'
@@ -38,6 +39,10 @@ class TaskCreate(LoginRequiredMixin, CreateView):
     model = Task
     fields = ['title', 'description', 'complete']
     success_url = reverse_lazy('task')
+
+    def form_valid(self, form):
+        form.instance.user = self.request.user
+        return super(TaskCreate, self).form_valid(form)
 
 
 class TaskUpdate(LoginRequiredMixin, UpdateView):
