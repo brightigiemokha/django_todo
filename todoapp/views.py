@@ -76,4 +76,7 @@ class TaskDelete(LoginRequiredMixin, DeleteView):
     model = Task
     context_object_name = 'task'
     success_url = reverse_lazy('task')
-    
+
+
+def Task404(request, exception):
+    return render(request, 'task_404.html', {})
