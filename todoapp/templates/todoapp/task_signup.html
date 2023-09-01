@@ -1,9 +1,17 @@
 {% extends 'todoapp/task_main.html' %}
 
 {% block content %}
+<div class="heading">
+<h1>Anyiador Task App</h1>
+<p> Great way to start your day is to have a perfect plan.<br>
+    never miss any event or plans. keep tab of your time with
+    Anyiador Todo Task App.
+</p>
 
-<h1>SignUp</h1>
+<hr>
 
+<h2>SignUp</h2>
+</div>
 <form method="POST">
     {% csrf_token %}
     {{form.as_p}}
@@ -11,4 +19,9 @@
     
     <p>Already have a account? <a href="{% url 'login' %}">LogIn</a></p>
 </form>
+<div class="footer">
+    <h5>Anyiador</h5>
+    <p>(c) 2023 Shalon House Design, LLC ANYIADOR is a Coding student company in making. </p>
+    <p>Contact us: Email- brightigiemokha@gmail.com, Tel- 07950932995</p>
+</div>
 {% endblock content %}
