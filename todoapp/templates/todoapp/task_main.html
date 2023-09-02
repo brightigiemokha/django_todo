@@ -8,62 +8,10 @@
     <link rel="icon" type="image/png" href="{% static 'image/favicon.png' %}">
     <link rel="'preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/26f3366ceb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
-<style>
-    body {
-        background-color: #5C5470;
-        font-family:'Roboto Mono', monospace;
-        font-size: 22px;
-        padding-top: 50px
-    }
-    .container{
-        display: flex;
-        flex-direction: column;
-        background-color: #B9B4C7;
-        margin: auto;
-        max-width: 650px;
-        -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
-        box-shadow: 2px 2px 13px -4pc rgba(0, 0, 0, 0.21);
-        border: rgba(0, 0, 0, 0.21) solid 4px;
-    }
-    h3{
-        text-align: center;
-    }
-    h1{
-        font-size: 25px;
-    }
-    a {
-        border: 2px solid #5C5470;
-        color: white;
-        background-color: #5C5470;
-        font-size: 20px;
-        padding-right: 2px;
-        margin-right: 2px;
-        text-decoration: none;
-        text-align: right;
-    }
-    .heading {
-        text-align: center;
 
-    }
-    .heading p{
-        font-size: 14px;
-        
-    }
-    .footer p{
-        font-size: 10px;
-        text-align: right;
-        padding: 0px;
-    }
-    .footer h5{
-        text-align: right;
-        padding-right: 20px;
-    }
-
-   
-</style>
 <body>
     <div class="container">
         {% block content %}
