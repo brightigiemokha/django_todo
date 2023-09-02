@@ -32,7 +32,7 @@ SECRET_KEY = 'django-insecure-u3zu3fz$oe)t9f=@5a0)op(fh-0&*5o0i3x3628&vv3r&u@wi7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ckz8780-django-task-app.herokuapp.com']
+ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOST"), 'ckz8780-django-task-app.herokuapp.com']
 
 
 # Application definition
