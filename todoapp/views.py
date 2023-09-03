@@ -13,6 +13,7 @@ from .models import Task
 from django.contrib import messages
 
 
+# signin page
 class CustomLoginView(LoginView):
     template_name = 'todoapp/task_login.html'
     fields = ['title', 'description', 'complete']
@@ -22,6 +23,7 @@ class CustomLoginView(LoginView):
         return reverse_lazy('task')
 
 
+# signuppasge for registration
 class SignupPage(FormView):
     template_name = 'todoapp/task_signup.html'
     form_class = UserCreationForm
@@ -41,6 +43,7 @@ class SignupPage(FormView):
         return super(SignupPage, self).get(*args, **kwargs)
 
 
+# views section
 class TaskList(LoginRequiredMixin, ListView):
     model = Task
     context_object_name = 'task'
@@ -58,6 +61,7 @@ class TaskDetail(LoginRequiredMixin, DetailView):
     template_name = 'todoapp/task_details.html'
 
 
+# add task
 class TaskCreate(LoginRequiredMixin, CreateView):
     model = Task
     fields = ['title', 'description', 'complete']
@@ -70,12 +74,14 @@ class TaskCreate(LoginRequiredMixin, CreateView):
         return result
 
 
+# Edit task
 class TaskUpdate(LoginRequiredMixin, UpdateView):
     model = Task
     fields = ['title', 'description', 'complete']
     success_url = reverse_lazy('task')
 
 
+# delete task
 class TaskDelete(LoginRequiredMixin, DeleteView):
     model = Task
     context_object_name = 'task'
