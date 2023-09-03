@@ -55,7 +55,7 @@ class TaskList(LoginRequiredMixin, ListView):
 class TaskDetail(LoginRequiredMixin, DetailView):
     model = Task
     context_object_name = 'task'
-    template_name = 'todoapp/task.html'
+    template_name = 'todoapp/task_details.html'
 
 
 class TaskCreate(LoginRequiredMixin, CreateView):
