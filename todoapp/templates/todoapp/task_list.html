@@ -8,9 +8,9 @@
     </div>
 </div>
 {% if request.user.is_authenticated %}
-<p><a href="{% url 'logout' %}">Logout</a></p>
+<p><a href="#" id="logout-link">LogOut</a></p>
 {% else %}
-    <p><a href="{% url 'login' %}">Login</a></p>
+    <p><a href="#" id="logout-link">LogIn</a></p>
 {% endif %}
 
 
@@ -23,9 +23,9 @@
     {% for todo in task %}
     <tr>
         {% if todo.complete == True %}
-        <td style="background-color: red;">{{forloop.counter}}.{{todo.title}}</td>
+        <td style="background-color: rgb(248, 96, 96);">{{forloop.counter}}.{{todo.title}}</td>
         {% else %}
-        <td style="background-color: white;">{{forloop.counter}}.{{todo.title}}</td>
+        <td style="background-color: rgb(255, 255, 255);">{{forloop.counter}}.{{todo.title}}</td>
         {% endif %}
 
 
