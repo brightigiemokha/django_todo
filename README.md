@@ -4,7 +4,7 @@
 
 Always dreaming of making life easier for everyone especially for the working class and moms, its always a big deal. been a mother to kids and even while you are nor might not be working in an office your role is still 1st and best, its often a challenge keeping track of things we want to do either in the office , visiting friends or buying that special thing for our loved once. this is where this Todo App come in . to make life easier for both the young and elderly. its easy features make it very understandable and convinent to use.
 
-![Responsive website image](assets/images/general/fbc-responsive-img.png)
+![Responsive website image](assets/image/todo-responsive-design.png)
 
 Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokuapp.com/"Link to Anyiador Todo Task App")
 
@@ -46,7 +46,158 @@ Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokua
   * [Acknowledgments](#acknowledgments)
 
 ---
+## Automated Testing
 
+### **W3C HTML Validator**
+
+The [HTML W3C HTML Validator](https://validator.w3.org/#validate_by_uri+with_options) was used to validate the HTML code used, showing no errors except on single report page, 'strike' element is obsolete. As this is a feature (text censoring from admin site) and works as intended, the error is disregarded.
+
+
+
+ - Login
+ <br>
+
+ ![Login](static/image/w3c_html_check.png)
+
+ - SignUp
+ <br>
+
+ ![Signup](static/image/w3c_html_signup.png)
+
+- Task Page
+ <br>
+ ![Task page](static/image/w3c_taskpage.png)
+
+ - Create Task
+ <br>
+
+ ![Create Task](static/image/w3c_createtask.png)
+
+ - Delete Report
+ <br>
+
+ ![Delete Task](static/image/w3c_delete.png)
+
+
+### **W3C CSS Validator**
+
+The [CSS Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the CSS code used, showing no errors on the customized style.css, uploaded by direct input.
+
+ - CSS validation
+ <br>
+
+ ![CSS Validation](static/image/w3c_css.png)
+
+### **JSHINT Javascript Validator**
+
+The [JsHint](https://jshint.com/) was used to validate the Javascript code used, showing no errors.
+
+ - Javascript validation
+ <br>
+
+ ![Javascript validation](static/image/jshint.png)
+
+### **CI Python Linter**
+
+The [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the Python code used, showing no errors except for one 'line too long' in settings.py. This could not be resolved despite best efforts.
+
+ - admin.py
+ <br>
+
+ ![admin.py](static/image/python_admin.png)
+
+ - forms.py
+ <br>
+
+ ![apps.py](static/image/python_apps.png)
+
+ - manage.py
+ <br>
+
+ ![manage.py](static/image/python_manage.png)
+
+ - models.py
+ <br>
+
+ ![models.py](static/image/python_model.png)
+
+ - settings.py
+ <br>
+
+ ![settings.py](static/image/python_setting.png)
+
+ - urls.py
+ <br>
+
+ ![urls.py](static/image/python_url.png)
+
+ - urls.py-project
+ <br>
+
+ ![views.py](static/image/python_views.png)
+
+### **Lighthouse**
+
+The [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) was used for testing performance.
+
+#### **Desktop**
+
+
+ - Login
+ <br>
+
+ ![Login](static/image/lighthouse_login_desktop.png)
+
+ - SignOut
+ <br>
+
+ ![Signup](static/image/lighthouse_signup_desktop.png)
+
+ - Add Task
+ <br>
+
+ ![Create Task](static/image/lh_adddtask_desktop.png)
+
+ - Edit Task
+ <br>
+
+ ![Edit Task](static/image/lh_adddtask_desktop.png)
+
+ - Delete Report
+ <br>
+
+ ![Delete report](static/image/lh_deletepage_desktop.png)
+
+#### **Mobile**
+
+  - Login
+ <br>
+
+ ![Login](static/image/lighthouse_login_mobile.png)
+
+ - SignOut
+ <br>
+
+ ![Signup](static/image/lighthouse_signup_mobile.png)
+
+ - Add Task
+ <br>
+
+ ![Create Task](static/image/lh_adddtask_mobile.png)
+
+ - Edit Task
+ <br>
+
+ ![Edit Task](static/image/lh_adddtask_mobile.png)
+
+ - Delete Report
+ <br>
+
+ ![Delete report](static/image/lh_deletepage_mobile.png)
+
+[Back to top ⇧]
+
+---
 ## **Project Overview**
 
 The idea for this project was to make life easier and to keep everyone in track for their daily / weekly / yearly task they have planned out. as it is general believe "one who fail to plan , has already planned to fail" but the truth is been able to remember your plans and able to track them are the main factor to a successful life. this app help to keep you reminded of all you plans, either about your groceries, your birthday plans, your school project or your leissure this todo app is right for you. its easy to save and delete items off list, you could also have items completed but not deleted for future references .
@@ -187,61 +338,24 @@ Wireframes for Assessment Guide and Project Planning & Ux were made before the o
 <details>
 <summary>Assessment guide wireframe</summary>
 
-![Assessment guide wireframe](assets/wireframes/portfolio-4-assessment-guide.png)
+![Assessment guide wireframe](static/image/wireframes.png)
 </details>
 
 <details>
-<summary>Project planning wireframe</summary>
-
-![Project planning wireframe](assets/wireframes/portfolio-4-planning-and-ux.png)
-</details>
 
 There are three wireframes for the project. Using Agile, the basic or Minimal Viable Product (MVP) was to be made first, then if time allows it the scope can increase, making the project grow towards Enhanced and finally Superior project.
 
 Differences between scopes were considered early as to allow for the use of Agile methodology. Personal, work, family, dependants and health situations were considered to have impact on time available for the project. Ideally, maximum time was to be taken to finish the project making the scope bigger.
 
-<details>
-<summary>MVP wireframe</summary>
-
-![MVP wireframe](assets/wireframes/fbc-mvp-wireframe.png)
-</details>
-
-<details>
-<summary>Mobile wireframe</summary>
-
-![Mobile wireframe](assets/wireframes/fbc-mobile-wireframe.png)
-</details>
-
-<details>
-<summary>Enhanced wireframe</summary>
-
-![Enhanced wireframe](assets/wireframes/fbc-enhanced-wireframe.png)
-</details>
-
-<details>
-<summary>Superior wireframe</summary>
-
-![Superior wireframe](assets/wireframes/fbc-superior-wireframe.png)
-</details>
-
-[Back to top ⇧]
-
----
 
 ## **Agile Project Management**
 
 This project was developed using the Agile methodology.
 The key principles adopted were; focus on the essential features first, work in small iterations and add extra features/expand scope as time permitted.
 
-- [FBC Milestones](https://github.com/Boiann/federal-bureau-of-control/milestones)
 
 The structure of development was: Milestone => Epic => Task/User Story.
 Epics were considered as iterations, and all of them contained 5 issues. Using the MoSCoW prioritization technique, they were separated into 60% as Must Have, 20% Should Have and 20% Could Have.
-
-Three templates were used to create the respective Epic, Task and User Story:
-  - [EPIC](https://github.com/Boiann/federal-bureau-of-control/issues/new?assignees=&labels=&projects=&template=epic.md&title=EPIC%3A+TITLE)
-  - [TASK](https://github.com/Boiann/federal-bureau-of-control/issues/new?assignees=&labels=&projects=&template=task.md&title=TASK%3A+TITLE)
-  - [USER STORY](https://github.com/Boiann/federal-bureau-of-control/issues/new?assignees=&labels=&projects=&template=user-story.md&title=USER+STORY%3A+TITLE)
 
 Colored text was used when possible (using Tex) for organizing, color-coding and visual distinction.
 
