@@ -198,6 +198,30 @@ The [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) was use
 [Back to top ⇧]
 
 ---
+## **Accessibility**
+
+### **WAVE WebAim**
+
+The [W.A.V.E.](https://wave.webaim.org/) was used to test for accessibility, showing no errors except for a single report page on censored (blacked-out) text. As this is a feature and works as intended, the contrast errors are disregarded.
+
+ - Index
+ <br>
+
+
+ - Login
+ <br>
+
+ ![Login](static/image/wave_login.png)
+
+ - SignUp
+ <br>
+
+ ![SignUp](static/image/wave_signup.png)
+ 
+
+[Back to top ⇧]
+
+---
 ## **Project Overview**
 
 The idea for this project was to make life easier and to keep everyone in track for their daily / weekly / yearly task they have planned out. as it is general believe "one who fail to plan , has already planned to fail" but the truth is been able to remember your plans and able to track them are the main factor to a successful life. this app help to keep you reminded of all you plans, either about your groceries, your birthday plans, your school project or your leissure this todo app is right for you. its easy to save and delete items off list, you could also have items completed but not deleted for future references .
@@ -276,7 +300,7 @@ the colors used are very warm and visable colors. user friendly
     
 
   - *Registerig, logging in/out:*  
-    - First time/unregistered user is immediately directed to the signup page on as index page and without an account user can not get through this page. this page also contains links to login pages.
+    - First time/unregistered user is immediately directed to the signin page on as index page and without an account user can not get through this page. this page also contains links to signup pages.
 
     - First time user can register on the register page. The page contains redirect links to login  page,
     - New user get a message after successful registration, "Congratulations, You are now Registered".
@@ -702,16 +726,12 @@ These were only some of project enhancements that could be done. Using other Dja
 - [GitHub](https://github.com/) - Source code hosted on GitHub, deployed using Git Pages.
 - [GitPod](https://www.gitpod.io/) - Used to commit, comment and push code during the development process.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome use dto source necessary icons used in the project.
-- [Balsamiq](https://balsamiq.com/) - Used to create wireframes and website structure map for the project.
 - [Google Keep](https://keep.google.com/) - Used to make notes during the project duration.
 - [LanguageTool](https://languagetool.org/) - Used for general spell-check.
 - [Google Fonts](https://fonts.google.com/) - Used to import fonts to the project.
 - [GifCap](https://gifcap.dev/) - Used to capture gif-s of the project .
 - [Heroku](https://www.heroku.com/) - Used to deploy the project.
-- [Lucidchart](https://www.lucidchart.com/pages/examples/flowchart-maker) - Used to make the iteration flowchart for the project.
-- [Bootstrap clean blog](https://startbootstrap.com/theme/clean-blog) - Bootstrap blog template imported in for content management and CSS.
 - [ElephantSQL](https://www.elephantsql.com/) - Free and open-source relational database management system (RDBMS).
-- [Bootstrap5](https://getbootstrap.com/) - Used for adding predefined styled elements and creating responsiveness.
 - [JsHint](https://jshint.com/) - Used for validating the javascript code.
 - [CI Python Linter](https://pep8ci.herokuapp.com/#) - Used for validating the python code.
 - [HTML W3C HTML Validator](https://validator.w3.org/#validate_by_uri+with_options) - Used for validating the HTML.
@@ -892,7 +912,7 @@ git add, commit and push
 deploy from Heroku via GitHub.
 </details>
 
-[Back to top ⇧](#federal-bureau-of-control)
+[Back to top ⇧]
 
 ---
 
@@ -900,7 +920,7 @@ deploy from Heroku via GitHub.
 
 Testing information can be found in a separate testing file [TESTING.md](/TESTING.md).
 
-[Back to top ⇧](#federal-bureau-of-control)
+[Back to top ⇧]
 
 ---
 
@@ -908,19 +928,12 @@ Testing information can be found in a separate testing file [TESTING.md](/TESTIN
 
 ### **Code used and adapted**
 
- - Previous projects of the developer were used, [Boudoir Studio](https://boiann.github.io/boudoir-studio/index.html) ( GithHub repository [here](https://github.com/Boiann/boudoir-studio) ), [Budget Calculator](https://boiann.github.io/budget-calculator/) ( GithHub repository [here](https://github.com/Boiann/budget-calculator) ) and [Space Quiz](https://space-quiz.herokuapp.com/) ( GithHub repository [here](https://github.com/Boiann/space-quiz) ) as a source for looking up the code/solutions for CSS and README purposes mainly.
-
- - [Federal Bureau of Control / Records Archive System](https://control-records.netlify.app/document/593134886/ai80-ue-movie-camera-supplement) was used as a project inspiration and as a source of Reports entries text, as well as censoring text inspiration. Code (text for generating example reports) was used with blessing of the FBC Archive System author, [Lou Huang](https://louhuang.com/), whose permission was asked for through email.
 
  - All characters, events and situations depicted (except for user self-made entries) are products of and copyrighted by [Remedy Entertainment Plc](https://www.remedygames.com/).
-
- - All images and text for describing AWE's, AI's and OoP's were sourced from [Control Wiki](https://control.fandom.com/wiki/Control_Wiki).
 
  - Code Institute guide/lessons were heavily relied on while working on development, mainly for the back-end. After the back end was developed the front end was adjusted.
 
  - [Django documentation](https://docs.djangoproject.com/en/4.2/) was relied on to find code for back-end solutions and code.
-
- - [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) was relied on to find code for front-end solutions and code. 
 
  - How do create url to django Admin within user page (HTML), code found on [Stack Overflow](https://stackoverflow.com/questions/55917136/how-do-create-url-to-django-admin-within-my-user-page-html).
 
@@ -947,30 +960,23 @@ There were many sites visited during the duration of the project.
 
 Standouts are [Django documentation](https://docs.djangoproject.com/en/4.2/), [Bootstrap documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) and [Django-blog](https://djangocentral.com/building-a-blog-application-with-django/) that helped immensely.
 
-A lot of other projects were looked into to help with development, standouts are [Bawarchi Khana](https://github.com/eleanorbucke21/PP4), [BookShelf](https://github.com/Code-Institute-Submissions/ci-project-21), [Just-beats](https://github.com/johnrearden/just-beats), [Italianissimo](https://github.com/useriasminna/italianissimo-booking-website) and [Support Hub](https://github.com/ianmeigh/support-hub).
+A lot of other projects were looked into to help with development, standouts are [ Destiny Franks (Desphixs)](https://www.youtube.com/@desphixs/about), [BError By Night](https://www.youtube.com/watch?v=0VF5twldC2Y&t=3147s).
 
 
 
 ###  **Acknowledgments**
 
-This whole project is dedicated to my passion of otherworldly and strange events and unexplainable things. The conflict between science based approach to life and the possibility of events/things we humans cannot yet comprehend will always be present. 
+This whole project is dedicated to my family who in the most difficult position we faced through out my coding career have remained strong and supportive to me. its has been a long ride and we have faced alot of storms, most bitter part of out life so far but in all we are always gratfuly to our Lord and saviour Jesus Christ for giving us the streight and grace to come out of everything.
+- To my wife, thank you for your support and cheering me on, lifting me back up when it got hard. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey would never be possible. And when it got hard and complicated, you never gave up on me and this dream of career change.
+- To Shalon my beautiful girl. Thank you for being so understanding during the project work. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls. You make me proud to be your dad.
 
-Special thanks to the developers of Control game, it was a wild and strange experience playing Control (back when I had spare time!).
-
-Without support I got from other people, this project would never be realized. I'll try and remember to thank everyone and everything I can!
-
-- M., my wife, thank you for your support and cheering me on, lifting me back up when it got hard. Thank you for taking care of all the housework and food, children and numerous other responsibilities while I was busy with full time job and doing this project on the side. Without you this journey would never be possible. And when it got hard and complicated, you never gave up on me and this dream of career change.
-- A., G. and V., my three beautiful girls. Thank you for being so understanding during the project work. Thank you from the bottom of my heart for being who you are, wonderful and delightful souls. You make me proud to be your dad.
-- Boris, my brother, thank you for testing my project so thoroughly, and for your support.
-- Marija and Boris, my mother and father, thank you for making me feel like a superstar when I announced I'm starting this journey and your support throughout it.
-- John, my friend, thank you for starting me on this path, and for your support, chats and sharing the things you learned.
-- Helen from Code Institute, thank you believing in me and making this change possible.
-- Slack community, thank you for being a constant source of good information and solutions.
-Special mentions are Allen and Roman, whose attention to detail and suggestions made this project better after it was submitted for peer review.
-- Koko, my mentor, thank you for being an incredible source of solutions and good advice, your support meant a great deal during the project.
+- Special mentions to Destiny Franks (Desphixs) thank you so much for been there for me every single step of this project this is all to you . i am gratful for your kindness and understanding. you where the back born to this project success. 
+- To Error By Night thanks alot for showing me the light and helping to answer my questions. i am gratfult for the team at discord for all your support.
+- To my most amazing Coach/co-student Tomislav_5P. i am not sure what to say to you for always making yourself available to answer and see me succeed. you have become more of a brother that i have never met . you love and support is truly appreciated. you will always be so special to me for there is no way i will write my coding career success without you on the front page.
+- To student support (Sarah) i got fedup of using this feature but when i was able to get in contact with you , you showed me i have missed alot for not using it. i am gratful for you help and patient.
 - Student support of Code Institute, thank you for granting the project deadline extension, it was much needed and appreciated.
-- C8H10N4O2 in a cup. Thank you for existing.
 
-[Back to top ⇧](#federal-bureau-of-control)
+
+[Back to top ⇧]
 
 ***
