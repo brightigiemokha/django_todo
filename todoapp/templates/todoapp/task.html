@@ -4,6 +4,9 @@
 
 <h1>Task: {{ task }}</h1>
 
+    {% for msg in messages %}
+    {% endfor %}
+
 <p><a href="{% url 'task' %}">Back</a></p> 
 
 {% endblock content %}

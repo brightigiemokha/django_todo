@@ -14,6 +14,11 @@
 
 <body>
     <div class="container">
+        <div id="messages-container">
+            {% for message in messages %}
+              <h4>{{ message }}</h4>
+            {% endfor %}
+          </div>
         {% block content %}
         {% endblock content %}
     </div>
