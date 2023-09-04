@@ -939,7 +939,6 @@ Testing information can be found in a separate testing file [TESTING.md](/TESTIN
 
  - Error pages how-to, found [here](https://frontendshape.com/post/bootstrap-5-404-page-examples) and [here](https://studygyaan.com/django/how-to-use-custom-500-error-template-in-django).
 
- - How to force refresh of the entire local storage, found on [Stack Overflow](https://stackoverflow.com/questions/75389242/how-can-i-force-refresh-of-the-entire-local-storage).
 
  - Adding Social Authentication to Django, found [here](https://testdriven.io/blog/django-social-auth/).
 
@@ -975,6 +974,8 @@ This whole project is dedicated to my family who in the most difficult position 
 - To my most amazing Coach/co-student Tomislav_5P. i am not sure what to say to you for always making yourself available to answer and see me succeed. you have become more of a brother that i have never met . you love and support is truly appreciated. you will always be so special to me for there is no way i will write my coding career success without you on the front page.
 - To student support (Sarah) i got fedup of using this feature but when i was able to get in contact with you , you showed me i have missed alot for not using it. i am gratful for you help and patient.
 - Student support of Code Institute, thank you for granting the project deadline extension, it was much needed and appreciated.
+- 
+- Special thanks to Bojan Bakaric (co-student) whose Readme for project (FEDERAL BUREAU OF CONTROL) was used as a template for my readme. thanks alot for your support and advise.
 
 
 [Back to top ⇧]

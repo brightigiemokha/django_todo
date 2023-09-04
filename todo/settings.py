@@ -37,7 +37,7 @@ if development:
     ALLOWED_HOSTS = ['localhost']
 else:
     ALLOWED_HOSTS = [os.environ.get(
-        "ALLOWED_HOST"), 
+        "ALLOWED_HOST"),
         'ckz8780-django-task-app.herokuapp.com']
 # Application definition
 

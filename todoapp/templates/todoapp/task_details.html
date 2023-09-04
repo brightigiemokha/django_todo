@@ -2,7 +2,8 @@
 
 {% block content %}
     <!-- # task list page -->
-<h1>Task: {{ task }}</h1>
+<h1>Task: {{ task.title }}</h1>
+{{ task.description }}
 
     {% for msg in messages %}
     {% endfor %}

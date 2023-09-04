@@ -34,7 +34,7 @@ class SignupPage(FormView):
         user = form.save()
         if user is not None:
             login(self.request, user)
-            messages.success(self.request, 'Registration successful! You are logged in.')
+            messages.success(self.request, 'Registration successful! You are logged in.')  # noqa
         return super(SignupPage, self).form_valid(form)
 
     def get(self, *args, **kwargs):
