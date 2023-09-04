@@ -948,9 +948,6 @@ Testing information can be found in a separate testing file [TESTING.md](/TESTIN
 
  - CSS 3D Rotate Animation, found on [CodePen](https://codepen.io/sungaila/pen/LzMgjE).
 
- - How to trigger bootstrap modal just once, found on [Stack Overflow](https://stackoverflow.com/questions/60539856/how-to-trigger-bootstrap-modal-just-once-and-using-browser-localstorage-to-detec).
-
- - Bootstrap templates used, [Clean Blog](https://startbootstrap.com/theme/clean-blog), [The Big Picture](https://startbootstrap.com/template/the-big-picture) and [Small Business](https://startbootstrap.com/template/small-business).
 
 ### **Websites visited for info and solutions**
 
@@ -961,7 +958,7 @@ Standouts are [Django documentation](https://docs.djangoproject.com/en/4.2/), [B
 
 A lot of other projects were looked into to help with development, standouts are [ Destiny Franks (Desphixs)](https://www.youtube.com/@desphixs/about), [BError By Night](https://www.youtube.com/watch?v=0VF5twldC2Y&t=3147s).
 
-
+I watched some of the videos from (https://www.youtube.com/@desphixs/about)
 
 ###  **Acknowledgments**
 
