@@ -4,7 +4,7 @@
 
 Always dreaming of making life easier for everyone especially for the working class and moms, its always a big deal. been a mother to kids and even while you are nor might not be working in an office your role is still 1st and best, its often a challenge keeping track of things we want to do either in the office , visiting friends or buying that special thing for our loved once. this is where this Todo App come in . to make life easier for both the young and elderly. its easy features make it very understandable and convinent to use.
 
-![Responsive website image](assets/image/todo-responsive-design.png)
+![Responsive website image](staticfiles/image/todo-responsive-design.png)
 
 Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokuapp.com/"Link to Anyiador Todo Task App")
 
@@ -50,33 +50,33 @@ Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokua
 
 ### **W3C HTML Validator**
 
-The [HTML W3C HTML Validator](https://validator.w3.org/#validate_by_uri+with_options) was used to validate the HTML code used, showing no errors except on single report page, 'strike' element is obsolete. As this is a feature (text censoring from admin site) and works as intended, the error is disregarded.
+The [HTML W3C HTML Validator](https://validator.w3.org/#validate_by_uri+with_options) was used to validate the HTML code used, showing no errors except on single report page, 'strike' element is obsolete. As this is a feature (text censoring from admin site) and works as intended.
 
 
 
  - Login
  <br>
 
- ![Login](static/image/w3c_html_check.png)
+ ![Login](staticfiles/image/w3c_html_check.png)
 
  - SignUp
  <br>
 
- ![Signup](static/image/w3c_html_signup.png)
+ ![Signup](staticfiles/image/w3c_html_signup.png)
 
 - Task Page
  <br>
- ![Task page](static/image/w3c_taskpage.png)
+ ![Task page](staticfiles/image/w3c_taskpage.png)
 
  - Create Task
  <br>
 
- ![Create Task](static/image/w3c_createtask.png)
+ ![Create Task](staticfiles/image/w3c_createtask.png)
 
  - Delete Report
  <br>
 
- ![Delete Task](static/image/w3c_delete.png)
+ ![Delete Task](staticfiles/image/w3c_delete.png)
 
 
 ### **W3C CSS Validator**
@@ -86,7 +86,7 @@ The [CSS Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_
  - CSS validation
  <br>
 
- ![CSS Validation](static/image/w3c_css.png)
+ ![CSS Validation](staticfiles/image/w3c_css.png)
 
 ### **JSHINT Javascript Validator**
 
@@ -95,7 +95,7 @@ The [JsHint](https://jshint.com/) was used to validate the Javascript code used,
  - Javascript validation
  <br>
 
- ![Javascript validation](static/image/jshint.png)
+ ![Javascript validation](staticfiles/image/jshint.png)
 
 ### **CI Python Linter**
 
@@ -104,41 +104,42 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the P
  - admin.py
  <br>
 
- ![admin.py](static/image/python_admin.png)
+ ![admin.py](staticfiles/image/python_admin.png)
 
  - forms.py
  <br>
 
- ![apps.py](static/image/python_apps.png)
+ ![apps.py](staticfiles/image/python_apps.png)
 
  - manage.py
  <br>
 
- ![manage.py](static/image/python_manage.png)
+ ![manage.py](staticfiles/image/python_manage.png)
 
  - models.py
  <br>
 
- ![models.py](static/image/python_model.png)
+ ![models.py](staticfiles/image/python_model.png)
 
  - settings.py
  <br>
 
- ![settings.py](static/image/python_setting.png)
+ ![settings.py](staticfiles/image/python_setting.png)
 
  - urls.py
  <br>
 
- ![urls.py](static/image/python_url.png)
+ ![urls.py](staticfiles/image/python_url.png)
 
  - urls.py-project
  <br>
 
- ![views.py](static/image/python_views.png)
+ ![views.py](staticfiles/image/python_views.png)
 
 ### **Lighthouse**
 
 The [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) was used for testing performance.
+App is fully responsive and best practice was followed for a great score
 
 #### **Desktop**
 
@@ -146,54 +147,59 @@ The [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) was use
  - Login
  <br>
 
- ![Login](static/image/lighthouse_login_desktop.png)
+ ![Login](staticfiles/image/lighthouse_login_desktop.png)
+ 
 
  - SignOut
  <br>
 
- ![Signup](static/image/lighthouse_signup_desktop.png)
+ ![Signup](staticfiles/image/lighthouse_signup_desktop.png)
+ 
 
  - Add Task
  <br>
 
- ![Create Task](static/image/lh_adddtask_desktop.png)
+ ![Create Task](staticfiles/image/lh_addtask_desktop.png)
+ 
 
  - Edit Task
  <br>
 
- ![Edit Task](static/image/lh_adddtask_desktop.png)
+ ![Edit Task](staticfiles/image/lh_editpage.desktop.png)
+ 
 
  - Delete Report
  <br>
 
- ![Delete report](static/image/lh_deletepage_desktop.png)
+ ![Delete report](staticfiles/image/lh_deletepage.desktop.png)
+ 
 
 #### **Mobile**
 
   - Login
  <br>
 
- ![Login](static/image/lighthouse_login_mobile.png)
+ ![Login Mobile](staticfiles/image/lighthouse_login_mobile.png)
 
  - SignOut
  <br>
 
- ![Signup](static/image/lighthouse_signup_mobile.png)
+ ![Signup Mobile](staticfiles/image/lighthouse_signup_mobile.png)
 
  - Add Task
  <br>
 
- ![Create Task](static/image/lh_adddtask_mobile.png)
+ ![Create Task Mobile](staticfiles/image/lh_addtask_mobile.png)
 
  - Edit Task
  <br>
 
- ![Edit Task](static/image/lh_adddtask_mobile.png)
+ ![Edit Task Mobile](staticfiles/image/lh_editpage.mobile.png)
 
  - Delete Report
  <br>
 
- ![Delete report](static/image/lh_deletepage_mobile.png)
+ ![Delete report Mobile](staticfiles/image/lh_deletepage.mobile.png)
 
 [Back to top ⇧]
 
@@ -202,7 +208,7 @@ The [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) was use
 
 ### **WAVE WebAim**
 
-The [W.A.V.E.](https://wave.webaim.org/) was used to test for accessibility, showing no errors except for a single report page on censored (blacked-out) text. As this is a feature and works as intended, the contrast errors are disregarded.
+The [W.A.V.E.](https://wave.webaim.org/) was used to test for accessibility, showing no errors except for a single report page on censored (blacked-out) text. As this is a feature and works as intended.
 
  - Index
  <br>
@@ -211,12 +217,12 @@ The [W.A.V.E.](https://wave.webaim.org/) was used to test for accessibility, sho
  - Login
  <br>
 
- ![Login](static/image/wave_login.png)
+ ![Login](staticfiles/image/wave_login.png)
 
  - SignUp
  <br>
 
- ![SignUp](static/image/wave_signup.png)
+ ![SignUp](staticfiles/image/wave_signup.png)
  
 
 [Back to top ⇧]
@@ -245,9 +251,8 @@ The idea for this project was to make life easier and to keep everyone in track 
 ### **User Expectations**
 
  - Able to quickly understand what the purpose of the site is
- - Intuitive navigation
  - Responsive across many different devices and screen sizes
- - Able to find basic information
+ - Able to find basic information and set task
  - Find additional info if needed
  - User-friendly
 
@@ -255,8 +260,8 @@ The idea for this project was to make life easier and to keep everyone in track 
 
 #### **First Time Visitor**
    - I want to know what Task Todo App is
-   - I want to navigate the website intuitively
-   - I want to find additional information
+   - I want to navigate the App easily
+   - I want to find additional information on how to use
    - I want to check out Control
 
   #### **Returning User/Agent**
@@ -267,6 +272,7 @@ The idea for this project was to make life easier and to keep everyone in track 
    - I want to delete my task
    - I want to add my comment to a task
    - I want to complete / delete task
+   - I want to access my task
 
   #### **Website Admin/Director**
    - I want to log in securely and have admin access
@@ -295,14 +301,13 @@ the colors used are very warm and visable colors. user friendly
 
     - with index page been the signup page with instructions of how to get the best from the app. after which the todo page is opened with a greeting to user, there are add buttons to add a task, edit button to change or modify , the view botton to view what have been written then the delete botton to delete any task that is no longer needed. the user also have the option to complete a task which makes the task color go red.
     -  base template is created with head, navigation and footer being the same on signup and login pages, adding specific page content to it.
-    - User can enter the home page using 'Enter' button presented at the middle of intro page, or use navigation link at the top of the page.
-    - User can open home page (signup) with more detailed info about the Task Todo App. 
+    - User can signin and view their already saved task, as the index page give option for users who are already registered to signin to the page.
     
 
   - *Registerig, logging in/out:*  
     - First time/unregistered user is immediately directed to the signin page on as index page and without an account user can not get through this page. this page also contains links to signup pages.
 
-    - First time user can register on the register page. The page contains redirect links to login  page,
+    - First time user can register on the register page. upon registration user is redirected to the Todo task page,
     - New user get a message after successful registration, "Congratulations, You are now Registered".
     
     - Upon registering, the 'Register' link is replaced by 'Logout' link, allowing the user to sign out from the site.
@@ -310,7 +315,7 @@ the colors used are very warm and visable colors. user friendly
     - The user can now open the 'Task' and 'create Task' pages.
     - When logging in the user is brought to the Task Todo page .
     - When logging out, the user is asked 'Are you sure' before signing out.
-    - When signed out, the user is brought to the index/Signup page.
+    - When signed out, the user is brought to the index/Signin page.
 
   - *Footer:*
     - Footer is retained on signup and signin pages and contains information and contact details of the designer .
@@ -319,40 +324,8 @@ the colors used are very warm and visable colors. user friendly
   - *Error pages*
     - Two error pages are supported, 404 (page not found) and 500 (internal server error), both with buttons that guide the user back to the home page.   
 
-  - Database schema:
 
-  - *Event*
 
-| Field Name      | Field Type              | Description                                   |
-| --------------- | ----------------------- | --------------------------------------------- |
-| id              | IntegerField (PK)       | Primary key for the event                                       |
-| title           | CharField               | The title of the event                                       |
-| slug            | SlugField               | A slugified version of the title for URL purposes          |
-| author_id       | ForeignKey (User)       | Foreign key to the User table 
-|
-| excerpt         | TextField               | Excerpt of the event  |
-| updated_on      | DateTimeField           | The datetime when the event was last updated           |
-| content         | TextField               | The content of the event                       |
-| created_on      | DateTimeField           | The datetime when the event was created           |
-| approved        | BooleanField            | Indicates whether the event is approved          |
-| status          | IntegerField            | Status of the event (0 for Draft, 1 for Published)        |
-event             |
-
-  - *Comment*
-
-| Field Name  | Field Type              | Description                                 
-|
-| ----------- | ----------------------- | --------------------------------------------- |
-| id          | IntegerField (PK)       | Primary key for the comment                                 |
-| post_id     | ForeignKey (Event)      | Foreign key to the Event table                 |
-| name        | CharField               | Name of the commenter                          |
-| email       | EmailField              | Email of the commenter                         |
-| body        | TextField               | The comment text                               |
-| created_on  | DateTimeField           | The datetime when the comment was created      |
-| approved    | BooleanField            | Indicates whether the comment is approved      |
-| status      | IntegerField            | Status of the comment (0 for Draft, 1 for Published) |
-
-The provided database schema consists of two tables: Event and Comment. The Event table contains fields: event's unique identifier, title, slug for URL purposes, author reference, featured image, excerpt, content, creation and update timestamps, approval status, and a status indicator. Additionally, there are many-to-many fields for users who liked or disliked the event. The Comment table includes fields like the comment's ID, associated event, commenter's name and email, comment body, creation timestamp, approval status, and a status indicator. This schema enables the storage and organization of events with their respective comments, providing a structured and efficient way to manage and retrieve event-related data.
 
 ### **Wireframes**
 
@@ -362,7 +335,7 @@ Wireframes for Assessment Guide and Project Planning & Ux were made before the o
 <details>
 <summary>Assessment guide wireframe</summary>
 
-![Assessment guide wireframe](static/image/wireframes.png)
+![Assessment guide wireframe](staticfiles/image/wireframes.png)
 </details>
 
 <details>
@@ -387,53 +360,7 @@ Colored text was used when possible (using Tex) for organizing, color-coding and
 
 Before writing any code, everything was considered and planned as much as possible.
 
-<details>
-<summary>Timeboxing - GLOBAL</summary>
-As this is a project being developed with agile methodology, the following calculations are not set in stone, and there is a lot of flexibility calculated in the final numbers. I've decided to do the calculations to mainly help myself, to put the available time in perspective regarding the development.
-Things can change and there can always be an event or something might happen .
-This is why it makes it easier for me if I have these calculations before hand and can adjust accordingly.
 
-
-PP4 Due 31.08.2023 12:00
-
-Project needs to be ready ideally a week before to account for:
-								- possible issues with internet connection  
-								- issues with development environment
-								- any other act of "divine power"
-
-= CALCULATION =
-
-PP4 Due 26.08.2023
-
-Project start date: 17.08.2023
-
-Available weeks for development: 2
-
-Had only 5 hours each day (monday to friday) and spend 7 hours on weekends. As i work monday to Friday full time, i have a 2year old as well. my submission was late with 3days due to personal and technical issues when working on this project
-
-
-= CALCULATION = 
-
-
-= FINAL PREDICTION =
-
-Can invest about 20 hrs/week 
-
-
-IDEAL TOTAL HRS FOR PROJECT DEVELOPMENT = 20 hrs x 2 weeks === 40 Hrs
-
-
-The actual number will probably be higher accounting for out of my control situations,
-
-FINAL TOTAL === 50 hrs.
-            === 25 hrs/week
-</details>
-
-<details>
-<summary>Timeboxing Milestones-Epics</summary>
-Epic = weekly timebox (2 days off from work, could be split in two - Epic/day)Prepare the
-
-1. Milestone - MVP = 1 week timebox
 
 1. EPIC - Django Setup and early deployment
 2. EPIC - Set up models and views
@@ -441,91 +368,24 @@ Epic = weekly timebox (2 days off from work, could be split in two - Epic/day)Pr
 4. EPIC - Content and navigation - basic
 5. EPIC - Content and navigation beautify/Testing
 
-2. Milestone - Enhanced Project = 4 days timebox
-
 6. EPIC - Logic/functionality enhancements
 7. EPIC - Ux/content enhancements
-
-3. Milestone - Superior Project = 3 days timebox
 
 8. EPIC - Logic/functionality enhancements
 9. EPIC - Ux/content enhancements
 
-4. Milestone - README = 2 days timebox
-
 10. EPIC - README update and finish up
 </details>
 
-<details>
-<summary>Timeboxing - ITERATION</summary> 
-Similar to Time calculations - GLOBAL, these calculations are not set in stone (they're agile!) but serve as a guide/organizing tool for myself.
 
 
-- Task to be finished in a day preferably
-- Include revisions
-- Timeboxing - goal oriented, iteration/meeting/milestone level
-- MoSCoW technique = Must, Should, Could, Won't HAVE in each iteration/milestone
-- Must have - 60%, should have 20%, could have 20%, add labels for each
-
-
-= ITERATION TIMEBOXING = 
-
-- Iteration being on a daily basis for days off ( 10 hrs/day ) 
-- The day before, preferably prepare the next day's iteration plan using Projects Board/Issues and do a revision of work done
-- The rest of the days when working in store - deal with bugs/problems/plan ahead
-
-
-= EPIC/MILESTONE TIMEBOXING = 
-
-- Epic/Milestone should be on a weekly basis ( approx 20 hrs )
-- The day before, preferably prepare the next week's milestone plan using Projects Board/Issues and do a revision of work done
-</details>
-
----
-
-## **Features**
-
-All of the features presented in this sections are fully responsive on all devices and screen widths.
-Please refer to [TESTING.md](/TESTING.md) for more information about responsiveness testing.
-
-### **Intro/splash/index**
-
-<details>
-<summary>Content disclaimer firing when opening the page for the first time, not firing on subsequent visit, spinning logo and animated center text</summary>
-
-![Content disclaimer](assets/features/1-intro-modal.gif)
-</details>
-
-<details>
-<summary>Content disclaimer firing when the user clicks on it, link inside the modal opens in a new tab, close modal button</summary>
-
-![User Content disclaimer](assets/features/2-content-modal-link.gif)
-</details>
-
-<details>
-<summary>Footer links open in a new tab, tooltips present on logo, title and footer links</summary>
-
-![Footer links](assets/features/3-footer-links.gif)
-</details>
 
 ### **Home**
 
 <details>
-<summary>Unregistered user can open home page, warning modals for reports/create reports</summary>
+<summary>Index page is the login page for user and unregistered users can easily click on the register now button to get registered for access</summary>
 
-![Unregistered user modals](assets/features/4-unregistered-modals.gif)
-</details>
-
-<details>
-<summary>Unregistered user warning modal links and close button</summary>
-
-![Unregistered user warning modal links and close button](assets/features/5-unregistered-modal-links.gif)
-</details>
-
-<details>
-<summary>Home page 'More Info' modals</summary>
-
-![Home page 'More Info' modals](assets/features/6-home-modals.gif)
+![Unregistered user modals](staticfiles/image/Homepage)
 </details>
 
 ### **Sign Up**
