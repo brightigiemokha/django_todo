@@ -76,7 +76,7 @@ The [HTML W3C HTML Validator](https://validator.w3.org/#validate_by_uri+with_opt
  - Delete Report
  <br>
 
- ![Delete Task](staticfiles/image/w3c_delete.png)
+ ![Delete Task](staticfiles/image/w3c_deletepage.png)
 
 
 ### **W3C CSS Validator**
@@ -119,12 +119,12 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the P
  - models.py
  <br>
 
- ![models.py](staticfiles/image/python_model.png)
+ ![models.py](staticfiles/image/python_mode.png)
 
  - settings.py
  <br>
 
- ![settings.py](staticfiles/image/python_setting.png)
+ ![settings.py](staticfiles/image/python_settings.png)
 
  - urls.py
  <br>
@@ -134,7 +134,7 @@ The [CI Python Linter](https://pep8ci.herokuapp.com/) was used to validate the P
  - urls.py-project
  <br>
 
- ![views.py](staticfiles/image/python_views.png)
+ ![views.py](staticfiles/image/python_view.png)
 
 ### **Lighthouse**
 
