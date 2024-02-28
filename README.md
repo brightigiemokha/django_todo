@@ -210,9 +210,6 @@ App is fully responsive and best practice was followed for a great score
 
 The [W.A.V.E.](https://wave.webaim.org/) was used to test for accessibility, showing no errors except for a single report page on censored (blacked-out) text. As this is a feature and works as intended.
 
- - Index
- <br>
-
 
  - Login
  <br>
@@ -330,19 +327,15 @@ the colors used are very warm and visable colors. user friendly
 ### **Wireframes**
 
 Wireframes for the project were developed right after the idea for the project was chosen.
-Wireframes for Assessment Guide and Project Planning & Ux were made before the ones for the content of the pages themselves.
+Wireframes for Assessment Guide and Project Planning have been added. not much understanding on building and using wireframe but for the sake of the project i have added something
 
 <details>
 <summary>Assessment guide wireframe</summary>
 
 ![Assessment guide wireframe](staticfiles/image/wireframes.png)
+![Assessment guide wireframe](staticfiles/image/flow_chat.jpg)
 </details>
 
-<details>
-
-There are three wireframes for the project. Using Agile, the basic or Minimal Viable Product (MVP) was to be made first, then if time allows it the scope can increase, making the project grow towards Enhanced and finally Superior project.
-
-Differences between scopes were considered early as to allow for the use of Agile methodology. Personal, work, family, dependants and health situations were considered to have impact on time available for the project. Ideally, maximum time was to be taken to finish the project making the scope bigger.
 
 
 ## **Agile Project Management**
@@ -351,8 +344,8 @@ This project was developed using the Agile methodology.
 The key principles adopted were; focus on the essential features first, work in small iterations and add extra features/expand scope as time permitted.
 
 
-The structure of development was: Milestone => Epic => Task/User Story.
-Epics were considered as iterations, and all of them contained 5 issues. Using the MoSCoW prioritization technique, they were separated into 60% as Must Have, 20% Should Have and 20% Could Have.
+The structure of development was: Milestone => Task/User Story.
+Epics were considered as iterations, and all of them contained 9 issues. all issues where planned in the user story and task set completed
 
 Colored text was used when possible (using Tex) for organizing, color-coding and visual distinction.
 
@@ -393,13 +386,13 @@ Before writing any code, everything was considered and planned as much as possib
 <details>
 <summary>Cross-links between Sign-up and Log In</summary>
 
-![Cross-links between Sign-up and Log In](assets/features/7-register-login-cross-links.gif)
+![Cross-links between Sign-up](staticfiles/image/signup_page.png)
 </details>
 
 <details>
 <summary>Successful registering success message</summary>
 
-![Successful registering success message](assets/features/8-registering-success.gif)
+![Successful registering success message](staticfiles/image/registration_confirmation.png)
 </details>
 
 ### **Log In/Out**
@@ -407,159 +400,36 @@ Before writing any code, everything was considered and planned as much as possib
 <details>
 <summary>Successful login success message, Agent name in top right corner</summary>
 
-![Successful login success message, Agent name in top right corner](assets/features/9-login-success.gif)
+![Successful login success message, Agent name in top right corner](staticfiles/image/login_greeting.png)
 </details>
 
-<details>
-<summary>GitHub log in</summary>
 
-![GitHub log in](assets/features/10-github-register.gif)
-</details>
 
-<details>
 <summary>Sure you want to log out page, logging out success message, no Agent name in top right corner</summary>
 
-![Sure you want to log out page, logging out success message, no Agent name in top right corner](assets/features/11-logout-success.gif)
+![Sure you want to log out page, logging out success message, no Agent name in top right corner](staticfiles/image/signout_confirmation.png)
 </details>
 
-### **Reports**
-
-<details>
-<summary>Paginated view of reports with like/dislike counters, next/back page button</summary>
-
-![Paginated view of reports with like/dislike counters, next/back page button](assets/features/12-reports-paginated.gif)
-</details>
-
-<details>
-<summary>Open an report, like/dislike buttons</summary>
-
-![Open an report, like/dislike buttons](assets/features/13-open-report.gif)
-</details>
-
-<details>
-<summary>Adding a comment, comments counter updating, if no comments - message</summary>
-
-![Adding a comment, comments counter updating, if no comments - message](assets/features/14-comment.gif)
-</details>
-
-### **Create Report**
-
-<details>
-<summary>Adding a report, template image if no image uploaded, director approval needed message and redirect to My-Reports page, added report not visible on Reports page</summary>
-
-![Adding a report, template image if no image uploaded, director approval needed message and redirect](assets/features/15-add-report.gif)
-</details>
-
-### **My Reports**
-
-<details>
-<summary>Paginated view of user's reports, unique for each user, Update/Edit and Delete buttons show up for user's own report</summary>
-
-![Paginated view of user's reports, unique for each user, Update/Edit and Delete buttons show up for user's own report](assets/features/16-user-report.gif)
-</details>
-
-<details>
-<summary>Update Report and success message</summary>
-
-![Update Report and success message](assets/features/17-update-report.gif)
-</details>
-
-<details>
-<summary>Delete Report, 'are you sure' question and success message</summary>
-
-![Delete Report, 'are you sure' question and success message](assets/features/18-delete-report.gif)
-</details>
-
-### **Admin/Director site differences**
-
-<details>
-<summary>Director access extra nav link for admin opening admin page in a separate tab, top right corner changes from Agent: *user* to Director: *user*</summary>
-
-![Director access extra nav link for admin opening admin page in a separate tab, top right corner changes from Agent: *user* to Director: *user*](assets/features/19-admin-login.gif)
-</details>
-
-<details>
-<summary>Reports and Create Report has no warning text for admin</summary>
-
-![Reports and Create Report has no warning text for admin](assets/features/20-admin-no-warning.gif/)
-</details>
 
 ### **Admin page**
 
 <details>
 <summary>Admin can approve and publish report, visible on Reports page to a normal user</summary>
 
-![Admin can approve and publish report, visible on Reports page to a normal user](assets/features/21-admin-report-approve.gif)
+![Admin can approve and publish report, visible on Reports page to a normal user](staticfiles/image/admin_page.png)
 </details>
 
-<details>
-<summary>Admin can create a draft report</summary>
-
-![Admin can create a draft report](assets/features/22-admin-draft.gif)
-</details>
-
-<details>
-<summary>Admin can change a report, censoring perk</summary>
-
-![Admin can change a report, censoring perk working](assets/features/23-admin-censor.gif)
-</details>
-
-<details>
-<summary>Admin can delete a report and user</summary>
-
-![Admin can delete a report and user](assets/features/24-admin-delete.gif)
-</details>
-
-<details>
-<summary>Admin can approve and change a comment</summary>
-
-![Admin can approve and change a comment](assets/features/25-admin-comment-change.gif)
-</details>
-
-<details>
-<summary>Admin can delete a comment</summary>
-
-![Admin can delete a comment](assets/features/26-admin-delete-comment.gif)
-</details>
-
-### **Error pages**
-
-<details>
-<summary>Error 400 (page not found) page with 'Go Home' button</summary>
-
-![Error 400 (page not found) page with 'Go Home' button](assets/features/27-error-400.gif)
-</details>
-
-<details>
-<summary>Error 500 (internal server error) page with 'Go Home' button</summary>
-
-![Error 500 (internal server error) page with 'Go Home' button](assets/features/28-error-500.gif)
-</details>
-
----
-
-[Back to top ⇧](#federal-bureau-of-control)
-
----
 
 ## **Future Implementations**
 
-The following features could be added to FBD in the future. Project deadline influenced heavily what was left out.
+The following features could be added to Task Todo in the future. .
 
-  - Fix naming of the classes vs pages, for example the event class is used to produce Report. The event class was conceived early in the project and left as is rather than to risk breaking the code somewhere, rendering the project submission in danger.
-  - After user submits a comment, the success message is rendered at the top of the page, it would be a better UX if the user is left where the comment was entered.
-  - Ability for the user to modify/delete their comments
-  - Adding a event/report type selector for the user, so when the user is submitting a report there is a choice of what type of event/report it is (AWE, AI, OoP)
-  - Make dedicated page with image carousel for each type of report (AWE, AI, OoP)
-  - Use some kind of text censoring API, to make censoring of the reports automated
-  - Add email required, working email verification and password recovery
-  - More social sign-in options
-  - GitHub sign in button on Register page
-  - Clean up of style.css. The css file is very big, consisting of more than 10 000 lines of code (not minified). The solution was looked for ([PurgeCSS](https://medium.com/dwarves-foundation/remove-unused-css-styles-from-bootstrap-using-purgecss-88395a2c5772)) and tried but was not successful within the project submission timeframe.
+  - Adding social account to the signup and login page to make easier for users to login and register.
+  - Wireframe design could have been improved on
+  - more feautures could be added to the task App
 
-These were only some of project enhancements that could be done. Using other Django apps and other API-s, logic and creativity could make this project into something really wonderful.
 
-[Back to top ⇧](#federal-bureau-of-control)
+[Back to top ⇧](#anyiador-todo-task-app)
 
 ---
 
@@ -587,7 +457,6 @@ These were only some of project enhancements that could be done. Using other Dja
 - [GitPod](https://www.gitpod.io/) - Used to commit, comment and push code during the development process.
 - [Font Awesome](https://fontawesome.com/) - Font Awesome use dto source necessary icons used in the project.
 - [Google Keep](https://keep.google.com/) - Used to make notes during the project duration.
-- [LanguageTool](https://languagetool.org/) - Used for general spell-check.
 - [Google Fonts](https://fonts.google.com/) - Used to import fonts to the project.
 - [GifCap](https://gifcap.dev/) - Used to capture gif-s of the project .
 - [Heroku](https://www.heroku.com/) - Used to deploy the project.
@@ -600,7 +469,7 @@ These were only some of project enhancements that could be done. Using other Dja
 - [W.A.V.E.](https://wave.webaim.org/) - Used for testing accessibility.
 - [LightHouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used for testing performance.
 
-[Back to top ⇧](#federal-bureau-of-control)
+[Back to top ⇧](#anyiador-todo-task-app)
 
 ---
 
