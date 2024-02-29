@@ -6,7 +6,7 @@ Always dreaming of making life easier for everyone especially for the working cl
 
 ![Responsive website image](staticfiles/image/todo-responsive-design.png)
 
-Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokuapp.com/"Link to Anyiador Todo Task App")
+Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokuapp.com/ "Link to Anyiador Todo Task App")
 
 ---
 
@@ -27,8 +27,6 @@ Visit the live site [Here.](https://ckz8780-django-task-app-2295e6f698e4.herokua
   * [Wireframes](#wireframes)
 
 * [Agile Project Management](#agile-project-management)
-
-* [Features](#features)
 
 * [Future Implementations](#future-implementations)
 
